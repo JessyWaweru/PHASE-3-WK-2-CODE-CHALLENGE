@@ -23,7 +23,7 @@ class Magazine
  end
 
  def contributing_authors
-    @contributors.select{|author|auhtor.articles.count>2}
+    @contributors.select{|author|author.articles.count>2}
  end
 
  def add_contributor(author)
